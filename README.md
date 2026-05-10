@@ -89,7 +89,7 @@ The system uses relational database design principles along with advanced SQL qu
 
 ## ER Diagram
 
-![ER Diagram](airline-er-diagram.png)
+![ER Diagram](ER diagram airlinedb.png)
 
 ---
 
@@ -105,13 +105,13 @@ The system uses relational database design principles along with advanced SQL qu
 
 ## Portfolio Report
 
-[View Full Project Report](Airline_Reservation_Database_Portfolio.pdf)
+[View Full Project Report](Airline Database System Project Report.pdf)
 
 ---
 
 ## SQL Script
 
-[View SQL Script](airline_reservation_database_system.sql)
+[View SQL Script](AirlineDatabaseSystem (1).sql)
 
 ---
 
