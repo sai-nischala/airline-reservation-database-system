@@ -2,22 +2,33 @@
 
 ## Project Overview
 
-This project is a MySQL-based Airline Database Management System designed to manage airline operations, passenger records, bookings, flight reviews, loyalty programs, and operational analytics.
+This project is a MySQL based Airline Database Management System designed to manage airline operations, passenger records, bookings, payments, cancellations, baggage tracking, customer reviews, and operational analytics.
 
-The system includes relational database design, complex SQL analytics queries, stored procedures, functions, and triggers to automate business operations and enforce data integrity.
+The system uses relational database design principles along with advanced SQL queries, stored procedures, functions, and triggers to automate airline business operations and maintain data integrity.
+
+---
+
+## Objectives
+
+- Centralize airline operational data
+- Improve reservation and booking workflows
+- Automate business rules using SQL triggers
+- Support customer satisfaction and operational analytics
+- Enhance data reliability and reporting efficiency
 
 ---
 
 ## Features
 
 - 20 normalized relational database tables
-- Advanced SQL joins and analytics queries
-- Stored procedures for operational reporting
-- SQL functions for loyalty and punctuality calculations
-- Triggers for automated business rule enforcement
+- Advanced SQL joins and analytical queries
+- Stored procedures for reporting and automation
+- SQL functions for loyalty and operational calculations
+- Triggers for business rule enforcement
 - Passenger satisfaction analytics
-- Flight operations and booking management
-- ER Diagram modeling using MySQL Workbench
+- Flight booking and cancellation management
+- Frequent flyer and promotions management
+- ER diagram modeling using MySQL Workbench
 
 ---
 
@@ -44,25 +55,63 @@ The system includes relational database design, complex SQL analytics queries, s
 
 ### Stored Procedures
 - Generate satisfaction reports
-- Customer complaint identification
-- Passenger history retrieval
+- Retrieve passenger booking history
+- Identify customer complaints and feedback trends
 
 ### Triggers
 - Prevent booking on cancelled flights
-- Prevent duplicate reviews
-- Automatically update customer loyalty type
+- Prevent duplicate passenger reviews
+- Automatically update customer loyalty categories
 
 ---
 
-## Database Schema
+## Database Components
 
-![ER Diagram](ER_Diagram.png)
+- Passengers
+- Flights
+- Bookings
+- Airlines
+- Airports
+- FlightStatus
+- Crew
+- Luggage
+- Ratings
+- Promotions
+- Payments
+- Satisfaction
+- FrequentFlyer
+- CancelledFlights
+- RouteDetails
+- FlightReviews
+- CheckIn
+
+---
+
+## ER Diagram
+
+![ER Diagram](airline-er-diagram.png)
+
+---
+
+## Project Files
+
+- SQL Script File
+- ER Diagram
+- Portfolio Project Report
+- Query Execution Results
+- MySQL Workbench Screenshots
 
 ---
 
 ## Portfolio Report
 
 [View Full Project Report](Airline_Reservation_Database_Portfolio.pdf)
+
+---
+
+## SQL Script
+
+[View SQL Script](airline_reservation_database_system.sql)
 
 ---
 
